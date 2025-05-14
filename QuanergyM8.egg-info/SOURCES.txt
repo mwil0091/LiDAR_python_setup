@@ -1,0 +1,9 @@
+LICENSE-apache-2.0
+README.md
+setup.py
+QuanergyM8.egg-info/PKG-INFO
+QuanergyM8.egg-info/SOURCES.txt
+QuanergyM8.egg-info/dependency_links.txt
+QuanergyM8.egg-info/top_level.txt
+cpp/cQuanergyM8_module.cpp
+quanergyM8/__init__.py
