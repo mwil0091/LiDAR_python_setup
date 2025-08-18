@@ -78,6 +78,7 @@ class Quanergy_M8_Parser:
         self._prev_position = position
 
         print('yo', self.pc_idx, self.number_of_pointclouds, self.num_points)
+        #np.save('points.npy', self.pointclouds[self.pc_idx])
         pts = _cq.parse_firing_data(f_data,
                                     self.pointclouds[self.pc_idx],
                                     self.intensities[self.pc_idx],
@@ -110,6 +111,8 @@ def pointcloud_callback(self):
     global _self
     _self = self
     pointcloud = self.pointclouds[self.pc_idx]
+    print("Saved Points")
+    np.save('points.npy', self.pointclouds[self.pc_idx])
     intensities = self.intensities[self.pc_idx]
     numpoints = self.num_points[self.pc_idx]
     print(" ******* NEW Pointcloud! %0.03f %d pts" % (time.time(), numpoints))

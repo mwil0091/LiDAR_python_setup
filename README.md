@@ -1,8 +1,4 @@
-# LiDAR_python_setup
-Setup Guide for the LiDAR Sensors in python
-
-More Info - https://github.com/mfassler/python3-quanergyM8/tree/master
-
+# python3-quanergyM8
 Python library to read live data from a Quanergy M8 LiDAR.
 
 This library is stand-alone.  It does NOT require (or use) the Quanergy SDK.

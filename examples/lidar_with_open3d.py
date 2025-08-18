@@ -38,7 +38,11 @@ def pointcloud_callback(self):
     pointcloud = self.pointclouds[self.pc_idx]
     intensities = self.intensities[self.pc_idx]
     numpoints = self.num_points[self.pc_idx]
-
+    #np.save("points.npy", pointcloud)
+    #np.save("points.npy", pointcloud)
+    pcd = open3d.geometry.PointCloud()
+    pcd.points = open3d.utility.Vector3dVector(pointcloud)
+    open3d.io.write_point_cloud("output.ply", pcd)
     print(" ******* NEW Pointcloud! %0.03f %d pts" % (time.time(), numpoints))
 
     # Convert the intensites into a Jet colormap:
