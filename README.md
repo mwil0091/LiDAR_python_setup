@@ -61,4 +61,4 @@ Time (sec) 21.95713520050049
 ```
 
 ### Possible Improvements
-Use opencv with GPU Support
+Use open3d with GPU Support
