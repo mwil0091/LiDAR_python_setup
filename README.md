@@ -40,5 +40,5 @@ pip install open3d --user
 cd examples
 
 # E.g python lidar_with_open3d.py 130.194.128.144
-python lidar_with_open3d.py ip_address_of_lidar  # Replace with the IP Addres
+python lidar_with_open3d.py ip_address_of_lidar  # Replace with the IP Address
 ```
