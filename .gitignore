@@ -6,4 +6,8 @@
 __pycache__
 build
 
-
+.venv
+QuanergyM8.egg-info\dependency_links.txt
+QuanergyM8.egg-info\PKG-INFO
+QuanergyM8.egg-info\SOURCES.txt
+QuanergyM8.egg-info\top_level.txt
