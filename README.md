@@ -15,7 +15,7 @@ This library is stand-alone.  It does NOT require (or use) the Quanergy SDK.
 * Numpy
 * The example viewer requires Open3d, but you can make your own viewer
 
-## Clone Repo and Setup Virtaul Environement:
+## Clone Repo and Setup Virtual Environement: (Tested with Python 3.12)
 ```bash
 git clone https://github.com/mwil0091/LiDAR_python_setup.git
 cd LiDAR_python_setup
@@ -26,7 +26,11 @@ python -m venv .venv
 
 python --version
 python -m pip install --upgrade pip
+
+
 python -m pip install numpy setuptools matplotlib
+# OR
+python -m pip install -r requirements.txt
 
 ```
 
